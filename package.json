@@ -1,0 +1,48 @@
+{
+    "name": "king-pdf",
+    "version": "1.0.1",
+    "description": "An Electron app that divides and renames pdf files.",
+    "private": false,
+    "main": "main.js",
+    "scripts": {
+        "start": "set \"NODE_ENV=development\" && electron .",
+        "build": "set \"NODE_ENV=production\" && electron-packager . --out=./build/ --overwrite --prune --overwrite --platform=win32 --arch=x64 --icon=./app/assets/img/icon/king-pdf.ico --ignore=./gitignore --executableName=\"King PDF\" --version-string.ProductName=\"king-pdf\"",
+        "lint": "./node_modules/.bin/eslint **/*.js",
+        "lint-fix": "./node_modules/.bin/eslint **/*.js --fix",
+        "rebuild": "./node_modules/.bin/electron-rebuild"
+    },
+    "author": "Victor Gianvechio <victor.gianvecchio@live.com>",
+    "copyright": "© 2019, Victor Gianvechio",
+    "license": "MIT",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/victorgianvechio/king-pdf.git"
+    },
+    "dependencies": {
+        "date-pt-br": "^1.0.5",
+        "dotenv": "^8.0.0",
+        "electron-progressbar": "^1.2.0",
+        "electron-root-path": "^1.0.9",
+        "hummus": "^1.0.104",
+        "jquery": "^3.4.1",
+        "path": "^0.12.7",
+        "pdf-text-extract": "^1.5.0"
+    },
+    "devDependencies": {
+        "babel-eslint": "^10.0.1",
+        "electron": "^5.0.1",
+        "electron-packager": "^13.1.1",
+        "electron-rebuild": "^1.8.5",
+        "eslint": "^5.16.0"
+    },
+    "engineStrict": true,
+    "engines": {
+        "node": ">=10.15.3",
+        "npm": ">=6.4.1"
+    },
+    "keywords": [
+        "pdf",
+        "separate",
+        "rename"
+    ]
+}

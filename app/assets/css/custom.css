@@ -1,0 +1,188 @@
+h1,
+h2,
+h3 {
+    text-align: center;
+}
+
+.container {
+    /* width: 280px; */
+    width: 90%;
+    margin: 0 auto;
+}
+
+.btn-container {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.img-title {
+    float: left;
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+.main-title {
+    margin-top: 40px;
+}
+
+.left-side {
+    float: left;
+    margin-bottom: 10px;
+}
+
+.right-side {
+    float: right;
+    margin-bottom: 10px;
+}
+
+.left-side-btn {
+    float: left;
+    margin-bottom: 10px;
+    width: 12%;
+}
+
+.right-side-btn {
+    float: right;
+    margin-bottom: 10px;
+    width: 87%;
+}
+
+input[type='file'] {
+    display: none;
+}
+
+.toolbar {
+    min-height: 22px;
+    box-shadow: inset 0 1px 0 #ffaeb9;
+    background-color: #ffaeb9;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0%, #ffaeb9),
+        color-stop(100%, #ffaeb9)
+    );
+    background-image: -webkit-linear-gradient(top, #ffaeb9 0%, #cd8c95 100%);
+    background-image: linear-gradient(to bottom, #ffaeb9 0%, #cd8c95 100%);
+}
+.toolbar:before,
+.toolbar:after {
+    display: table;
+    content: ' ';
+}
+.toolbar:after {
+    clear: both;
+}
+
+.toolbar-header {
+    border-bottom: 1px solid #cd8c95;
+}
+.toolbar-header .title {
+    margin-top: 1px;
+}
+
+.toolbar-footer {
+    border-top: 1px solid #cd8c95;
+    -webkit-app-region: drag;
+}
+
+.title-footer {
+    margin: 0;
+    font-size: 13px;
+    font-weight: 400;
+    text-align: center;
+    color: #ffefdb;
+    cursor: default;
+    font-family: 'Insaniburger';
+}
+
+.title {
+    margin: 0;
+    font-size: 12px;
+    /* font-weight: 400; */
+    text-align: center;
+    width: 100%;
+    color: #ffefdb;
+    cursor: default;
+}
+
+.form-control {
+    display: inline-block;
+    width: 100%;
+    min-height: 25px;
+    padding: 5px 10px;
+    font-size: 13px;
+    line-height: 1.6;
+    background-color: #fff5ee;
+    border: 1px solid #cd9b9b;
+    border-radius: 4px;
+    outline: none;
+}
+.form-control:focus {
+    border-color: #cd9b9b;
+    box-shadow: 3px 3px 0 #cd9b9b, -3px -3px 0 #cd9b9b, -3px 3px 0 #cd9b9b, 3px -3px 0 #cd9b9b;
+}
+
+.window {
+    background-color: #ffefdb;
+}
+
+h1 {
+    /* font-family: 'Bubblegum Sans', cursive; */
+    /* font-family: 'Coaster-Quake', cursive; */
+    /* font-family: 'Salmon-White', cursive; */
+    /* font-family: 'Bittermilk', cursive; */
+    /* font-family: 'Short Baby', cursive; */
+    color: #cd8c95;
+    font-weight: bold;
+}
+
+.font1 {
+    font-family: 'PT Banana Split', cursive;
+    font-size: 50px;
+}
+.font2 {
+    font-family: 'Agent Orange', cursive;
+}
+.font3 {
+    font-family: 'Short Baby', cursive;
+    font-size: 50px;
+}
+.font4 {
+    font-family: 'Billo Dream';
+    font-size: 50px;
+}
+.font5 {
+    font-family: 'Action Jackson';
+    font-size: 50px;
+}
+
+.btn-default {
+    color: #333;
+    border-top-color: #cd8c95;
+    border-right-color: #cd8c95;
+    border-bottom-color: #cd8c95;
+    border-left-color: #cd8c95;
+    background-color: #eedfcc;
+    background-image: -webkit-gradient(
+        linear,
+        left top,
+        left bottom,
+        color-stop(0%, #eedfcc),
+        color-stop(100%, #ffefdb)
+    );
+    background-image: -webkit-linear-gradient(top, #eedfcc 0%, #ffefdb 100%);
+    background-image: linear-gradient(to bottom, #eedfcc 0%, #ffefdb 100%);
+}
+.btn-default:active {
+    background-color: #ddd;
+    background-image: none;
+}
+
+label {
+    font-size: 14px;
+    color: #cd8c95;
+    /* font-weight: bold; */
+    font-weight: 100;
+    font-family: 'Insaniburger';
+}
