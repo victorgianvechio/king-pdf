@@ -19,6 +19,7 @@
         "url": "https://github.com/victorgianvechio/king-pdf.git"
     },
     "dependencies": {
+        "bootstrap": "^4.3.1",
         "date-pt-br": "^1.0.5",
         "dotenv": "^8.0.0",
         "electron-progressbar": "^1.2.0",

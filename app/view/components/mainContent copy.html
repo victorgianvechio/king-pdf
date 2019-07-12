@@ -1,28 +1,30 @@
 <div class="pane-group">
     <div class="pane">
         <div class="container">
-            <img class="img-title" src="pdf.png" width="56px" height="56px" />
+            <img class="img-title" src="pdf.png" width="60px" height="60px" />
         </div>
 
         <div class="container">
             <h1 class="font2 main-title">King PDF</h1>
         </div>
+        <!-- <hr /> -->
 
         <div class="container">
             <form>
-                <div class="form-group margin-bot">
+                <div class="form-group">
                     <div class="container">
                         <label for="filePath">File</label>
                     </div>
-
                     <div class="container">
-                        <div class="left-side-btn">
-                            <button type="button" id="btnFile" class="btn btn-large btn-default">
-                                <span class="icon icon-folder"></span>
-                            </button>
-                        </div>
-
-                        <div class="right-side-btn">
+                        <button
+                            type="button"
+                            id="btnFile"
+                            class="button-test btn btn-large btn-default"
+                        >
+                            <span class="icon icon-folder"></span>
+                        </button>
+                        <div class="input">
+                            <label for="filePath">File</label>
                             <input
                                 type="text"
                                 name="filePath"
@@ -36,19 +38,27 @@
                     </div>
                 </div>
 
-                <div class="form-group margin-bot">
-                    <div class="container">
-                        <label for="outputPath">Folder</label>
-                    </div>
+                <!-- <br />
+                <br />
+                <br />
+                <br />
+                <br /> -->
+
+                <div class="form-group">
+                    <!-- <div class="container left-side-btn">
+                        <button type="button" id="btnOutput" class="btn btn-large btn-default">
+                            <span class="icon icon-folder"></span>
+                        </button>
+                    </div> -->
 
                     <div class="container">
-                        <div class="left-side-btn">
+                        <div class="container left-side-btn">
                             <button type="button" id="btnOutput" class="btn btn-large btn-default">
                                 <span class="icon icon-folder"></span>
                             </button>
                         </div>
-
-                        <div class="right-side-btn">
+                        <div class="container">
+                            <label for="outputPath">Folder</label>
                             <input
                                 type="text"
                                 name="outputPath"
@@ -68,39 +78,47 @@
                     </div>
                 </div>
 
+                <!-- <br />
+                <br />
+                <br />
+                <br /> -->
+
                 <div class="form-group">
+                    <!-- <div class="container left-side-btn">
+                        <button type="button" id="btnOutput" class="btn btn-large btn-default">
+                            <span class="icon icon-folder"></span>
+                        </button>
+                    </div> -->
                     <div class="container">
                         <label for="layout">Layout</label>
-                    </div>
-
-                    <div class="container">
-                        <div class="left-side-btn">
-                            <button type="button" id="btnLayout" class="btn btn-large btn-default">
-                                <span class="icon icon-layout"></span>
-                            </button>
-                        </div>
-
-                        <div class="right-side-btn">
-                            <select id="layout" class="form-control"></select>
-                        </div>
+                        <select id="layout" class="form-control"></select>
                     </div>
                 </div>
 
-                <div class="container btn-container">
+                <!-- <br />
+                <br /> -->
+
+                <!-- <label for="layout">Layout</label>
+                <select id="layout" name="layout" class="form-control">
+                    <option value="holerite">Holerite</option>
+                    <option value="ferias">Férias</option>
+                </select> -->
+
+                <!-- <div class="container btn-container">
                     <div class="form-actions">
                         <button type="button" id="btnConfig" class="btn btn-large btn-default">
                             <span class="icon icon-cog"></span>
                         </button>
 
-                        <button type="button" id="btnSair" class="btn btn-large btn-positive">
-                            EXIT
+                        <button type="button" id="btnSair" class="btn btn-large btn-negative">
+                            Sair
                         </button>
 
                         <button type="button" id="btnGerar" class="btn btn-large btn-positive">
-                            RUN
+                            Gerar
                         </button>
                     </div>
-                </div>
+                </div> -->
             </form>
         </div>
     </div>
